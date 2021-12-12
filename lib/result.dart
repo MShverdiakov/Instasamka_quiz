@@ -9,7 +9,9 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     String resultText;
 
-    if (resultScore <= 8) {
+    if (resultScore <= 0) {
+      resultText = 'Сам ты кал';
+    } else if (resultScore <= 8) {
       resultText = 'Денис, серьезно?';
     } else if (resultScore <= 12) {
       resultText = 'Претти кул';

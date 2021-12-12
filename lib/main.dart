@@ -43,6 +43,15 @@ class _MyAppState extends State<MyApp> {
         {'Text': 'Денис', 'score': 1},
       ]
     },
+    {
+      'Вопрос': 'Какая ты инстасамка?',
+      'Ответы': [
+        {'Text': 'JuicySAMKA', 'score': 10},
+        {'Text': 'PussySAMKA', 'score': 10},
+        {'Text': 'Даша Зотеева', 'score': 1},
+        {'Text': 'Инстасамка кал', 'score': -50},
+      ]
+    },
   ];
 
   var _questionIndex = 0;
